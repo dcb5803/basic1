@@ -12,7 +12,7 @@
     async function ask() {
       const question = document.getElementById("question").value;
       const apikey = document.getElementById("apikey").value;
-      const res = await fetch("https://your-backend-url.com/api", {
+      const res = await fetch("https://4c2e5580887fe83e8c.gradio.live/api", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, api_key: apikey })
